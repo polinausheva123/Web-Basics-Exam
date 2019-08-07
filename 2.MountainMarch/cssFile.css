@@ -1,0 +1,107 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body{
+    margin: auto;
+    font-family: 'Lato',sans-serif;
+}
+.right{
+    border: 3px solid purple;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.left{
+    background-image:linear-gradient(rgba(35, 65, 92, 0.4), rgba(136, 47, 136, 0.7)), url("peak.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+
+}
+body{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    margin: auto;
+}
+span{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color:white;
+    font-size: 33px;
+}
+.left p{
+    color:white;
+    top: 179px;
+    position: relative;
+    font-size: 17px;
+    padding: 26px;
+}
+i{
+    color:white;
+    position: relative;
+    top: 143px;
+    font-size: 30px;
+}
+span{
+    padding-left: 61px;
+    padding-right: 61px;
+}
+input{
+    border: none;
+    border-bottom: 2px solid gray;
+    padding:0;
+    width:202px;
+}
+span p{
+    position: relative;
+    top: 12px;
+    left: -59px;
+    color: gray;
+}
+.second {
+left: -73px;
+}
+
+.forth{
+left:-27px;
+}
+span:first-child{
+    padding-top:40px;
+}
+span:last-of-type{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+span:last-of-type p {
+    left: 44px;
+    position: relative;
+
+    top: -10px;
+}
+button{
+    border-radius: 24px;
+    width: 119px;
+    color: white;
+    background-color: purple;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    height: 35px;
+}
+button:hover {
+    cursor: pointer;
+}
+span:last-child p {
+    position: relative;
+    left: 12px;
+    color: black;
+}
+a{
+    text-decoration: none;
+    padding-left: 16px;
+}

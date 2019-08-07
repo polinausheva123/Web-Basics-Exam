@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+    font-family: 'Lato',sans-serif;
+    margin:0;
+    height: 99%;
+}
+
+header{
+    background-image: url("background-header.jpg");
+    height: 554px;
+    background-size: cover;
+}
+
+img{
+    width: 168px;
+    padding: 32px;
+}
+header h2{
+    font-weight: 100;
+    text-align: center;
+
+}
+header h1{
+    text-align: center;
+    font-size: 41px;
+    margin-top: 0;
+
+    text-shadow: 0px 0px 19px ghostwhite;
+}
+header p{
+
+    text-align: center;
+    font-size: 23px;
+    text-shadow: 0px 0px 19px ghostwhite;
+}
+.one .two{
+    display:flex;
+    flex-direction: row;
+    margin-bottom:0;
+    text-shadow: 0px 0px 19px ghostwhite;
+    font-weight: 800;
+
+}
+.two{
+    position: relative;
+    top: -17px;
+}
+.butoni{
+
+
+}
+button{
+    margin:auto;
+    padding:10px;
+}
+.more{
+    color:white;
+    background: purple;
+    border: none;
+    border-radius: 13px;
+    position: relative;
+    left: 38%;
+
+}
+.down{
+    color:white;
+    background: deeppink;
+    border: none;
+    border-radius: 13px;
+    position: relative;
+    left: 45%;
+}
+.down , .more{
+    cursor: pointer;
+    padding-top: 12px;
+    padding-bottom: 12px
+}
+span{
+    width:30%;
+    display: inline-block;
+    text-align: center;
+    padding-left:26px;
+}
+span .fa-pencil{
+    font-size: 62px;
+    border-radius: 58%;
+    border: 2px solid orange;
+    padding: 20px;
+    color: orange;
+    margin-top: 20px;
+}
+span .fa-camera-retro{
+    font-size: 62px;
+    border-radius: 58%;
+    border: 2px solid orange;
+    padding: 20px;
+    color: orange;
+    margin-top: 20px;
+}
+span .fa-money{
+    font-size: 62px;
+    border-radius: 58%;
+    border: 2px solid orange;
+    padding: 20px;
+    color: orange;
+    margin-top: 20px;
+}
+span p{
+    width: 90%;
+    font-size: 16px;
+
+}
+.second{
+    position: relative;
+    top: 1px;
+}
+article{
+    background-image: url("moon.jpg");
+    height: 554px;
+    background-size: cover;
+}
+article div{
+    height: 456px;
+    border: 2px solid orange;
+    width: 410px;
+    margin-left: 55px;
+    background: rgba(240, 100%, 50%, 1);
+}
+div h2{
+    text-align: center;
+    color: white;
+    margin-top: 35px;
+}
+div h4{
+    text-align: center;
+    color: white;
+    font-size: 34px;
+    margin-top:10px;
+}
+article div p{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    margin-top: 47px
+}
+button{
+    border-radius: 100%;
+    padding-top: 32px;
+    padding-bottom: 31px;
+    position: relative;
+    background-color: darkorange;
+    border: none;
+    background: linear-gradient(to right, #fe8c00, #f83600);
+    text-align: center;
+}
+.color{
+background-color: rgba(0, 0, 255, 0.1);
+}
+.yo{
+    position: relative;
+    top: 46px;
+    left: 74px;
+    padding-top: 34px;
+    width: 86px;
+}
+.yoyo{
+    position: relative;
+    top: 45px;
+    left: 153px;
+    padding-top: 32px;
+
+
+}
+footer{
+    color:white;
+ font-size: 18px;
+    background-color: black;
+    margin:0;
+    padding:43px;
+
+}
+footer span {
+    color: orange;
+    position: relative;
+    left: -160px;
+}
+footer p{
+margin:0;
+}
+.final{
+    float:right;
+}
+.fa-facebook{
+    position: relative;
+    top: -27px;
+    font-size: 45px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    padding: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color:blue;
+    margin-right: 17px;
+}
+.fa-instagram{
+    position: relative;
+    top: -27px;
+    font-size: 45px;
+    border: 2px solid purple;
+    border-radius: 50%;
+    padding: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    color:purple;
+    margin-right: 17px;
+}
+.fa-twitter{
+    position: relative;
+    top: -27px;
+    font-size: 45px;
+    border: 2px solid deepskyblue;
+    border-radius: 50%;
+    padding: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    color:deepskyblue;
+    margin-right: 17px;
+}
